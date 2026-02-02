@@ -60,10 +60,6 @@ Use GCC to compile the project:
 bash
 gcc *.c -o apc
 
----
-
----
-
 ## How to Run
 ./apc <number1> <operator> <number2> 
 
