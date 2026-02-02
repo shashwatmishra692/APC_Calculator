@@ -65,6 +65,8 @@ gcc *.c -o apc
 ---
 
 ## How to Run
-./apc <number1> <operator> <number2>
+./apc <number1> <operator> <number2> 
+
+---
 
 ---
