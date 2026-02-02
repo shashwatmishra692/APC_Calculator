@@ -53,8 +53,6 @@ APC/
 
 ```
 
----
-
 ## ▶ How to Compile
 Use GCC to compile the project:
 bash
@@ -63,3 +61,32 @@ gcc *.c -o apc
 ## How to Run
 `./apc <number1> <operator> <number2>` 
 
+## Example
+`./apc 123456789123456789 + 987654321987654321`
+
+---
+
+## Supported Operators
+
+```
+
+| Operator | Operation      |
+| -------- | -------------- |
+| +        | Addition       |
+| -        | Subtraction    |
+| X        | Multiplication |
+| /        | Division       |
+
+```
+
+## Internal Working
+
+Each digit of the input number is stored in a node of a Doubly Linked List
+
+Arithmetic operations are performed digit-by-digit similar to manual calculation
+
+Carry, borrow, and intermediate results are handled using linked list traversal
+
+Division is implemented using repeated subtraction
+
+---
