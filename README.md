@@ -24,8 +24,6 @@ The program supports **addition, subtraction, multiplication, and division** usi
 
 ---
 
----
-
 ## 🛠 Technologies Used
 - **Programming Language:** C
 - **Data Structure:** Doubly Linked List
